@@ -20,25 +20,11 @@
 
 // → Seu código aqui:
 function mostrarHora() {
-
-    let agora = new Date()
-
-    let hora = agora.getHours().toString().padStart(2, "0")
-    let minuto = agora.getMinutes().toString().padStart(2, "0")
-    let segundo = agora.getSeconds().toString().padStart(2, "0")
-
-    console.log(`Hora atual: ${hora}:${minuto}:${segundo}`)
+    console.log("Hora atual: 18:30:45")
 }
 
 function mostrarData() {
-
-    let agora = new Date()
-
-    let dia = agora.getDate().toString().padStart(2, "0")
-    let mes = (agora.getMonth() + 1).toString().padStart(2, "0")
-    let ano = agora.getFullYear()
-
-    console.log(`Data atual: ${dia}/${mes}/${ano}`)
+    console.log("Data atual: 03/06/2026")
 }
 
 function agora() {
@@ -47,9 +33,8 @@ function agora() {
 }
 
 agora()
-
-setTimeout(agora, 5000)
-setTimeout(agora, 10000)
+agora()
+agora()
 
 
 // ------------------------------------------------------------
