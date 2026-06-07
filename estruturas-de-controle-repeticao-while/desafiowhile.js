@@ -29,9 +29,9 @@
 // → Seu código aqui:
 const ler = require('readline-sync')
 
-let saldo = Number(ler.question("Saldo inicial? "))
-let jurosMensal = Number(ler.question("Taxa de juros mensal (%)? "))
-let metaSaldo = Number(ler.question("Saldo a atingir? "))
+let saldo = (ler.question("Saldo inicial? "))
+let jurosMensal = (ler.question("Taxa de juros mensal (%)? "))
+let metaSaldo = (ler.question("Saldo a atingir? "))
 
 let mes = 0
 let historico = []
